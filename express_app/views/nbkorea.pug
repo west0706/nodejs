@@ -1,0 +1,14 @@
+doctype html
+html(lang="en")
+	head
+		title= title
+
+	body
+		h1 Invalidate nbkorea.com Image Cache. 
+		div
+			form(name="invalid", method="get", action="/invalidate")
+				div.input
+					span.label Input image URL 
+					input(type="text", name="inval_url")
+				div.actions
+					input(type="submit", value="Excute")
