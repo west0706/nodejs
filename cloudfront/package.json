@@ -1,0 +1,12 @@
+{
+  "name": "cloudfront",
+  "version": "1.0.0",
+  "description": "Invalidation AWS CloudFront",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "west0706@gmail.com",
+  "license": "ISC"
+}

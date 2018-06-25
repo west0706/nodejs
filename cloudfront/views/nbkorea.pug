@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+	head
+		title= title
+
+	body
+		div.title
+			img(src="http://www.nbkorea.com/images/nb_main/nb_logo.png")
+			span.label Newbalance 캐시 초기화			
+		div
+			p
+		div
+			form(name="invalid", method="get", action="/invalidate")
+				div.input
+					span.label 이미지 경로
+					input(type="text", name="inval_path")
+					input(type="submit", value="캐시 초기화")
