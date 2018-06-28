@@ -44,7 +44,7 @@ app.get('/invalidate', (req, res) => {
 			var timestamp = Date.now().toString();
 
 			var params = {
-				DistributionId: 'E2YE8IZKUXT69K', /* required */ //nbkorea-dev
+				DistributionId: '', /* required */ //nbkorea-dev
 				InvalidationBatch: { /* required */
 				  CallerReference: timestamp, /* required */
 				  Paths: { /* required */
